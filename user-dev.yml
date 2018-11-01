@@ -1,0 +1,18 @@
+env:
+  dev
+spring:
+  application:
+    name: user
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/springcloud?characterEncoding=utf8&useUnicode=true&verifyServerCertificate=false&useSSL=false&requireSSL=false
+    username: smicro
+    password: smicro
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9090/eureka/
