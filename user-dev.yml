@@ -5,8 +5,8 @@ Rule:
     1.0.0
   author:
     smicro
-  swtich:
-    on
+  showMessage:
+    false
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
