@@ -3,7 +3,7 @@ env:
 rule:
   version: 1.0.0
   author: smicro
-  showMessage: false
+  showMessage: true
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
