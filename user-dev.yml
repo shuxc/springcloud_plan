@@ -1,12 +1,9 @@
 env:
   dev_test
 Rule:
-  version:
-    1.0.0
-  author:
-    smicro
-  showMessage:
-    false
+  version: 1.0.0
+  author: smicro
+  showMessage: false
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
