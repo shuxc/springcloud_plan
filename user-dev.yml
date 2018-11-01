@@ -1,6 +1,6 @@
 env:
   dev_test
-Rule:
+rule:
   version: 1.0.0
   author: smicro
   showMessage: false
