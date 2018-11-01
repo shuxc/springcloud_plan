@@ -1,5 +1,12 @@
 env:
   dev_test
+Rule:
+  version:
+    1.0.0
+  author:
+    smicro
+  swtich:
+    on
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
@@ -10,3 +17,4 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
+      
